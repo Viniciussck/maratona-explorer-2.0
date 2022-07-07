@@ -1,0 +1,94 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #01f7ff;
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle, #ff0101 0%, #af02ff 100%);
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+img.perfil{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: #00082F solid 4px;
+    padding: 3.7px;
+}
+.usuario {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: #00082F;
+    opacity: 80%;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    margin: 48px 0;
+}
+
+ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000c3b;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+}
+
+ul li a:hover {
+    background: #1551f8;
+}
+
+.redessociais {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+footer {
+    font-weight: 500;
+    font-size: 12px;
+    color: #00082F;
+    opacity: 60%;
+    transition: 400ms;
+}
+
+footer a {
+    color: #00082F;
+}
+footer:hover {
+    opacity: 1;
+}
